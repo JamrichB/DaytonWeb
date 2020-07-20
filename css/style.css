@@ -1,16 +1,16 @@
-body{
+body {
      font-family: 'Gayathri', sans-serif;
      height: 2700px;
-
 }
 
-.mainhead{
+.mainhead {
      width: 100%;
      height: 80px;
      background: #a2a2a27e;
      z-index: 2;
      position: fixed;
 }
+
 .navbar {
     height: 100px;
    width: 65%;
@@ -18,22 +18,21 @@ body{
     list-style: none;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     margin-left: 30px;
 }
 
-.navbar a{
+.navbar a {
     font-size: 25px;
     text-decoration: none;
     font-variant: small-caps;
     color: #2a2a2a;
     vertical-align: middle;
     font-weight: 700;
-    
 }
 
-.navbar li:last-child{
+.navbar li:last-child {
     margin-left: 20px;
     border: 1px solid #000000;
     padding: 10px 20px 6px 20px;
@@ -53,6 +52,7 @@ body{
     background: url(../img/header.jpg) left top no-repeat;
     z-index: -999;
 }
+
 .main_title {
     width: 70%;
     height: 300px;
@@ -60,7 +60,7 @@ body{
     z-index: 3;
 }
 
-.main_title h1{
+.main_title h1 {
     text-align: center;
     padding: 20px 10px;
     font-size: 50px;
@@ -70,7 +70,7 @@ body{
     text-shadow: 2px 2px 3px #2a2a2a;
 }
 
-.main_title h2{
+.main_title h2 {
     size: 30px;
     text-align: center;
     color: #ffffff;
@@ -79,23 +79,24 @@ body{
     text-shadow: 2px 2px 3px #2a2a2a;
 }
 
-main{
+main {
     height: 1380px;
 }
 
-.firstA{
-width: 50%;
-height: 350px;
-margin: 0 auto;
+.firstA {
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
 }
 
-.firstA h3{
+.firstA h3 {
     text-align: center;
     font-weight: 500;
     font-variant: small-caps;
     font-size: 40px;
 }
-.firstA p{
+
+.firstA p {
     text-align: center;
     margin: 0;
     font-size: 20px;
@@ -107,13 +108,13 @@ margin: 0 auto;
     margin: 0 auto;
 }
 
-.smallA{
+.smallA {
     width: 45%;
     height: 300px;
     float: left;
-    
 }
-.smallA2{
+
+.smallA2 {
     width: 45%;
     height: 300px;
     float: right;
@@ -135,11 +136,11 @@ margin: 0 auto;
 }
 
 .smallA2 h4,
-.smallA h4{
+.smallA h4 {
     font-size: 20px;
 }
 
-.pre_footer{
+.pre_footer {
     width: 35%;
     margin: 0 auto;
     height: 40px;
@@ -148,6 +149,7 @@ margin: 0 auto;
     padding-top: 20px;
     background: #7f1710;
 }
+
 .pre_footer a{
     font-variant: small-caps;
     font-size: 20px;
@@ -156,8 +158,6 @@ margin: 0 auto;
     font-weight: 700;
     letter-spacing: 2px;
     color: #ffffff;
-    
-    
 }
 
 footer {
@@ -166,7 +166,8 @@ footer {
     margin-top: 450px;
     background: #a2a2a2;
 }
-footer p{
+
+footer p {
     text-align: right;
     padding-right: 30px;
     font-size: 15px;
