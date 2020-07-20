@@ -23,6 +23,10 @@ body {
     margin-left: 30px;
 }
 
+.navbar li:hover {
+    text-shadow: 0 0 5px #7f1710;
+}
+
 .navbar a {
     font-size: 25px;
     text-decoration: none;
@@ -162,14 +166,17 @@ main {
 
 footer {
     width: 1350px;
-    height: 20px;
+    height: 40px;
     margin-top: 450px;
     background: #a2a2a2;
 }
 
 footer p {
     text-align: right;
-    padding-right: 30px;
+    padding: 2px 30px 2px 0;
     font-size: 15px;
 }
 
+footer span{
+    font-size: 20px;
+}
